@@ -1,0 +1,13 @@
+.p1{
+    background-color: yellow;
+    width: 90%;
+    height: 200px;
+    padding: 10px 5%;
+    border: 2px solid black;
+    float: none;
+    overflow: auto;
+}
+img{
+    float: right;
+    padding: 10px;
+}

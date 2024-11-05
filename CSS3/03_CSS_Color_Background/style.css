@@ -1,0 +1,16 @@
+*{
+background-color: rgb(245, 250, 248);
+opacity: 0.9;
+background-image: url(download.png);
+background-repeat: no-repeat;
+background-position:right top;
+background-attachment: fixed;
+
+}
+
+p{
+    color:rgb(22, 7, 7);
+    color: rgba(150, 137, 125, 0.5);
+    opacity: 0.8;
+    )
+}

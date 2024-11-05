@@ -1,0 +1,40 @@
+a:hover{
+    color: brown;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color: aqua;
+}
+
+li:first-child{
+    color: chartreuse;
+}
+li:last-child{
+    color: rgb(253, 34, 5);
+}
+li:nth-child(n){
+    color:darkcyan;
+}
+li:nth-child(2n+1){
+    color: blue;
+}
+li:nth-child(even){
+    color: rgb(65, 65, 92);
+}
+li:nth-child(odd){
+    color: rgb(157, 157, 167);
+}
+
+body::after{
+content: "This is a pseudo element";
+}
+body::before{
+content: "This is a pseudo element";
+}
+
+p::selection{
+background-color: blue;
+color:aquamarine;
+}

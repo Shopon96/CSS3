@@ -1,0 +1,71 @@
+div{
+    margin-bottom: 30px;
+}
+
+
+.div1{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+.div2{
+    width: 400px;
+    height: 300px;
+    border: 5px solid salmon;
+    border-radius: 25px;
+}
+.div3{
+    width: 400px;
+    height: 300px;
+    background-image: url(paris.jfif);
+    border-radius: 25px;
+}
+
+.div4{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    border-radius: 15px 30px 30px 5px;
+}
+
+.div5{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    border-radius: 15px 75px 15px 20px;
+}
+
+.div6{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(5, 9, 253);
+    border-radius: 50px 20px 15px 10px;
+}
+
+.div7{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    /* border-radius: 50px / 20px; */
+
+    border-radius: 20px / 50px;
+}
+
+
+
+p{
+    border: 10px solid green;
+    padding: 10px;
+    /* border-image-source: url(border.png);
+    border-image-slice: 30;
+    border-image-width: 20px;
+    border-image-outset: 5px;
+    background-color: bisque;
+    border-image-repeat: repeat; */
+
+     border-image: url(border.png) 30 /10px 5px round;
+     background-color: bisque;
+    
+
+}

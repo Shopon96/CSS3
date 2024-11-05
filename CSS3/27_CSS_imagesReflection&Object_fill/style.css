@@ -1,0 +1,17 @@
+/* body{
+    margin-left: 100px;
+} */
+
+/* image reflection */
+/* img{
+    -webkit-box-reflect: below 30px;
+} */
+
+/* Object fit */
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+

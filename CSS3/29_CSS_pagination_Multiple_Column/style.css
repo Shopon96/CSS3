@@ -1,0 +1,38 @@
+
+.center{
+    text-align: center;
+}
+
+.page{
+    display: inline-block;
+}
+
+.page a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    border: 1px solid #ddd;
+}
+
+.page a.active{
+    background-color: green;
+    color: white;
+}
+
+.page a:hover:not(.active){
+    background-color: #ddd;
+}
+
+/* Multiple Column */
+.news{
+    column-width: 500px;
+}
+
+.news p{
+    column-count: 3;
+    column-rule: 1px solid #ddd;
+    /* column-rule-style: solid;
+    column-rule-color: #ddd; */
+}

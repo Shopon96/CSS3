@@ -1,0 +1,21 @@
+.transform{
+    width: 200px;
+    height: 350px;
+    border: 5px solid green;
+    transform: translatey(50px);
+    transform: translatex(50px);
+    transform: rotate(50deg);
+    transform: scale(3);
+    transform: skew(42deg);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+
+.transform{
+    width: 200px;
+    height: 350px;
+    border: 5px solid green;
+    transform: rotateX(150deg);
+    
+}

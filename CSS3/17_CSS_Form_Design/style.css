@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+.form_design{
+  background-color: aliceblue;
+  padding: 38px;
+  overflow:hidden ;
+}
+.form_design input,option{
+  width: 100%;
+  outline: none;
+  border: 1px solid #685b5b;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.form_design input:focus {
+  border: 1px solid #0fde;
+}
+
+.form_design textarea{
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px;
+  resize: vertical;
+}
+
+.form_design textarea:focus{
+  outline: none;
+  border: 1px solid wheat;
+}
+
+input[type="button"]{
+  background-color: blue;
+  color:aliceblue;
+  padding: 12px 28px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+input[type="button"]:hover{
+  background-color: rgb(250, 84, 7);
+}

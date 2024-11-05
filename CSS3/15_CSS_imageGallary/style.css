@@ -1,0 +1,18 @@
+.gallary{
+    float: left;
+    width: 188px;
+    border: 1px solid rgb(194, 194, 209);
+    margin: 5px;
+}
+
+.gallary:hover{
+    border: 1px solid #070606;
+}
+.gallary img {
+    width: 100%;
+    height: auto;
+}
+.one {
+    padding: 10px;
+    text-align: center;
+}

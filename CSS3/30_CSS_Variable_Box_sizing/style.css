@@ -1,0 +1,33 @@
+:root{
+    --blue:rgba(14, 14, 245, 0.959);
+    --green:rgb(10, 253, 10);
+    --red:rgb(148, 21, 21);
+
+}
+
+.demo{
+    --red:green;
+    width: 300px;
+    height: 400px;
+    background-color: var(--green);
+}
+
+p{
+    color:var(--blue)
+}
+/* Box sizing */
+
+.div1{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.div2{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    padding: 50px;
+    box-sizing: border-box;
+}

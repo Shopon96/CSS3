@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+}
+
+
+/* h1{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    border-radius: 10px;
+    border: 2px solid red ;
+}
+
+p{
+
+    border-top: solid;
+    border-bottom: dotted;
+    border-right: double;
+    
+} */
+
+#p1{
+
+    border: 2px solid rgb(14, 55, 236);
+    background-color: brown;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+#p2{
+
+    border: 2px solid rgb(236, 166, 14);
+    background-color: rgb(156, 135, 135);
+}

@@ -1,0 +1,118 @@
+/* .div1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* transition-property: width;
+    transition-duration: 2s; */
+    /* transition: width 4s, height 4s;
+}
+.div1:hover{
+    width: 300px;
+    height: 300px;
+} */ 
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* transition: width 2s; */
+    /* transition: width 2s, height 2s, transform 2s;
+    margin: 10px;
+} */
+/* 
+.div1{
+    transition-timing-function: linear;
+}
+.div2{
+    transition-timing-function: ease;
+}
+.div3{
+    transition-timing-function: ease-in;
+}
+.div4{
+    transition-timing-function: ease-out;
+}
+.div5{
+    transition-timing-function: ease-in-out;
+}
+.div6{
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+div:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(90deg);
+} */ 
+
+.div7{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    background-color: red;
+    /* animation-name: demo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-duration: reverse;
+    animation-timing-function: linear; */
+
+    animation: demo 5s infinite linear alternate;
+    
+}
+/* @keyframes demo{
+    from{
+        background-color: red;
+       
+    }
+    to{
+        background-color: rgb(13, 27, 236);
+       
+} */
+
+
+
+
+
+@keyframes demo{
+
+  0%{
+    background-color:red;
+    left: 0px;
+    top: 0px;
+  }
+
+25%{
+    background-color: rgb(224, 211, 17);
+    left: 200px;
+    top: 0px;
+  }
+
+50%{
+    background-color: rgb(78, 5, 247);
+    left: 200px;
+    top: 200px;
+  }
+75%{
+    background-color: crimson;
+    left:0px;
+    top:200px;
+}
+
+100%{
+    background-color: chartreuse;
+    left:0px;
+    top:0px;
+
+
+}
+
+
+
+
+
+
+}
+
+
+
